@@ -67,7 +67,6 @@ function login() {
                                 localStorage.setItem("gathery_password", userData.pwd)
 
                                 // Set log to true to indicate that the user has logged in
-                                userSnapshot.ref.update({ log: true });
 
                                 // Redirect to voting.html
                                 window.location.href = "voting.html";
